@@ -1,0 +1,22 @@
+# Google Ads API Configuration File
+# 
+# Instructions:
+# 1. Replace all YOUR_* placeholders with your actual credentials
+# 2. Save this file as "google-ads.yaml" in the same directory as the script
+# 3. Keep this file secure - it contains sensitive credentials!
+
+# Developer token from https://ads.google.com/aw/apicenter
+developer_token: YOUR_DEVELOPER_TOKEN
+
+# OAuth2 credentials from Google Cloud Console
+client_id: YOUR_CLIENT_ID.apps.googleusercontent.com
+client_secret: YOUR_CLIENT_SECRET
+
+# Refresh token (generate using google-ads generate_refresh_token command)
+refresh_token: YOUR_REFRESH_TOKEN
+
+# Your Google Ads Customer ID (without hyphens)
+login_customer_id: 3106590821
+
+# Use proto-plus library (recommended)
+use_proto_plus: True
